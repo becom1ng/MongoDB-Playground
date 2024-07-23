@@ -1,21 +1,14 @@
 {
-	"dependencies": {
-		"express": "^4.19.2",
-		"mongodb": "^6.8.0",
-		"mongoose": "^8.5.1",
-		"node": "^22.5.1"
-	},
-	"type": "module",
-	"name": "mongodb-playground",
-	"version": "1.0.0",
-	"description": "Learning excercises for MongoDB and Mongoose. Also using NodeJS and Express.",
-	"main": "index.js",
-	"devDependencies": {},
-	"scripts": {
-		"start": "node server",
-		"dev": "node --env-file=.env --watch server"
-	},
-	"keywords": [],
-	"author": "Ryan Lavery",
-	"license": "MIT"
+  "name": "mongodb-playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.19.2",
+    "morgan": "~1.9.1"
+  }
 }
